@@ -1,9 +1,9 @@
-## Planet Properties
+# Planet Properties
 Notes: 
 - File "tks_system_properties-<date>.csv includes all stellar and planetary properties from latest pipeline run
 - All files begin with SYSTEM_ID (i.e. <TOI>_<TIC>)
 
-# Files include:
+## Files include:
 - SYSTEM_ID-<TOI ID>-CORNER_weighted.png: fully weighted corner plot of posteriors of period, t0, Rp/Rs, b, and T14
 - SYSTEM_ID-<TOI ID>-ECC_OMEGA.png: 2D joint posterior distribution of ecc and omega
 - SYSTEM_ID-<TOI ID>-TRANSIT_FIT.png: phase-folded lightcurve with final model fit and binned points
