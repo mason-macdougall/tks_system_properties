@@ -1,4 +1,4 @@
-# Planet Properties
+# TKS System Properties
 Notes: 
 - File "tks_system_properties-<date>.csv" includes all stellar and planetary properties from latest pipeline run
 - File "tks_system_properties_final.zip" includes all pipeline outputs for each planet
