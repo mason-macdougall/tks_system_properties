@@ -1,6 +1,6 @@
 # TKS System Properties
 Notes: 
-- File "tks_system_properties-<date>.csv" includes all stellar and planetary properties from latest pipeline run
+- File "tks_system_properties-[date].csv" includes all stellar and planetary properties from latest pipeline run
 - Folder "planet_properties/" includes all pipeline outputs for each planet
 - All folder names within "planet_properties/" are labeled with [TOI]_[TIC] (i.e. SYSTEM_ID)
 
