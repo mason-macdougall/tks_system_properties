@@ -1,8 +1,8 @@
 # TKS System Properties
 Notes: 
 - File "tks_system_properties-<date>.csv" includes all stellar and planetary properties from latest pipeline run
-- File "tks_system_properties_final.zip" includes all pipeline outputs for each planet
-- All folder names within the .zip file are labeled with [TOI]_[TIC] (i.e. SYSTEM_ID)
+- Folder "planet_properties/" includes all pipeline outputs for each planet
+- All folder names within "planet_properties/" are labeled with [TOI]_[TIC] (i.e. SYSTEM_ID)
 
 ## Files include:
 - SYSTEM_ID-[TOI ID]-CORNER_weighted.png: fully weighted corner plot of posteriors of period, t0, Rp/Rs, b, and T14
