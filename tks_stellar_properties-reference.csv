@@ -1,0 +1,58 @@
+colnumber,name,units,notes
+1,toi,,TOI ID number
+2,sy_pnum,,"Number of transiting planets (as of May 1, 2023)"
+3,tic_id,,TIC ID number
+4,tks_name,,TKS internal name
+5,evol,,Stellar evolutionary stage (Main Sequence or Sub-Giant)
+6,st_age,Gyr,Stellar age (modeled via isoclassify)
+7,st_ageerr1,Gyr,Stellar age upper uncertainty
+8,st_ageerr2,Gyr,Stellar age lower uncertainty
+9,st_teff,K,Stellar effective temperature (modeled via isoclassify)
+10,st_tefferr1,K,Stellar effective temperature upper uncertainty
+11,st_tefferr2,K,Stellar effective temperature lower uncertainty
+12,st_rad,R_Sun,Stellar radius (modeled via isoclassify)
+13,st_raderr1,R_Sun,Stellar radius upper uncertainty
+14,st_raderr2,R_Sun,Stellar radius lower uncertainty
+15,st_mass,M_Sun,Stellar mass (modeled via isoclassify)
+16,st_masserr1,M_Sun,Stellar mass upper uncertainty
+17,st_masserr2,M_Sun,Stellar mass lower uncertainty
+18,st_dens,g/cm**3,Stellar density (modeled via isoclassify)
+19,st_denserr1,g/cm**3,Stellar density upper uncertainty
+20,st_denserr2,g/cm**3,Stellar density lower uncertainty
+21,st_met,dex,Stellar metallicity (modeled via isoclassify)
+22,st_meterr1,dex,Stellar metallicity upper uncertainty
+23,st_meterr2,dex,Stellar metallicity lower uncertainty
+24,st_lum,log10(L_Sun),Stellar luminosity (modeled via isoclassify)
+25,st_lumerr1,log10(L_Sun),Stellar luminosity upper uncertainty
+26,st_lumerr2,log10(L_Sun),Stellar luminosity lower uncertainty
+27,st_logg,log10(cm/s**2),Stellar surface gravity (modeled via isoclassify)
+28,st_loggerr1,log10(cm/s**2),Stellar surface gravity upper uncertainty
+29,st_loggerr2,log10(cm/s**2),Stellar surface gravity lower uncertainty
+30,st_avs,,Estimated V-mag extinction (modeled via isoclassify)
+31,st_avserr1,,Estimated extinction upper uncertainty
+32,st_avserr2,,Estimated extinction lower uncertainty
+33,st_limbdark1_derived,,First quadratic limb darkening parameter (derived - see MacDougall et al. 2023a)
+34,st_limbdark2_derived,,Second quadratic limb darkening parameter (derived - see MacDougall et al. 2023a)
+35,specmatch_flag,,Flag indicating which SpecMatch algorithm was used to derived stellar inputs (Empirical or Synthetic)
+36,specmatch_teff,K,Input stellar effective temperature (from SpecMatch)
+37,specmatch_tefferr,K,Input stellar effective temperature uncertainty
+38,specmatch_logg,log10(cm/s**2),Input stellar surface gravity (from SpecMatch)
+39,specmatch_loggerr,log10(cm/s**2),Input stellar surface gravity uncertainty
+40,specmatch_met,dex,Input stellar metallicity (from SpecMatch)
+41,specmatch_meterr,dex,Input stellar metallicity uncertainty
+42,sy_jmag,,J magnitude
+43,sy_jmagerr,,J magnitude uncertainty
+44,sy_hmag,,H magnitude
+45,sy_hmagerr,,H magnitude uncertainty
+46,sy_kmag,,K magnitude
+47,sy_kmagerr,,K magnitude uncertainty
+48,sy_gaiamag,,Gaia G magnitude
+49,sy_gaiamagerr,,Gaia G magnitude uncertainty
+50,sy_gaiabpmag,,Gaia Bp magnitude
+51,sy_gaiabpmagerr,,Gaia Bp magnitude uncertainty
+52,sy_gaiarpmag,,Gaia Rp magnitude
+53,sy_gaiarpmagerr,,Gaia Rp magnitude uncertainty
+54,sy_plx,mas,Parallax (from Gaia DR2)
+55,sy_plxerr,mas,Parallax uncertainty
+56,ra,deg,RA (from Gaia DR2)
+57,dec,deg,Dec (from Gaia DR2)

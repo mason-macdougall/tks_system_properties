@@ -1,0 +1,50 @@
+colnumber,name,units,notes
+1,toi_full,,Planet ID number
+2,toi,,TOI ID number
+3,tic_id,,TIC ID number
+4,tks_name,,TKS internal name
+5,phot_source,,Source of photometric data (SPOC or TESS-SPOC pipelines)
+6,pl_orbper,days,Orbital period
+7,pl_orbpererr1,days,Orbital period upper uncertainty
+8,pl_orbpererr2,days,Orbital period lower uncertainty
+9,pl_tranmid,days,Transit midpoint (BTJD = BJD-2457000)
+10,pl_tranmiderr1,days,Transit midpoint (BJD-2457000) upper uncertainty
+11,pl_tranmiderr2,days,Transit midpoint (BJD-2457000) lower uncertainty
+12,pl_trandur,hours,Transit duration (1st-to-4th contact)
+13,pl_trandurerr1,hours,Transit duration (1st-to-4th contact) upper uncertainty
+14,pl_trandurerr2,hours,Transit duration (1st-to-4th contact) lower uncertainty
+15,pl_ratror,,Planet-to-star radius ratio
+16,pl_ratrorerr1,,Planet-to-star radius ratio upper uncertainty
+17,pl_ratrorerr2,,Planet-to-star radius ratio lower uncertainty
+18,pl_rade,R_Earth,Planet radius
+19,pl_radeerr1,R_Earth,Planet radius upper uncertainty
+20,pl_radeerr2,R_Earth,Planet radius lower uncertainty
+21,pl_imppar,,Impact parameter
+22,pl_impparerr1,,Impact parameter upper uncertainty
+23,pl_impparerr2,,Impact parameter lower uncertainty
+24,pl_orbeccen,,Planet orbital eccentricity (using a uniform prior)
+25,pl_orbeccenerr1,,Planet orbital eccentricity upper uncertainty
+26,pl_orbeccenerr2,,Planet orbital eccentricity lower uncertainty
+27,pl_orblper,deg,Planet argument of periastron (using a uniform prior)
+28,pl_orblpererr1,deg,Planet argument of periastron upper uncertainty
+29,pl_orblpererr2,deg,Planet argument of periastron lower uncertainty
+30,st_limbdark1,,First quadratic limb darkening parameter (modeled)
+31,st_limbdark1err1,,First quadratic limb darkening parameter upper uncertainty
+32,st_limbdark1err2,,First quadratic limb darkening parameter lower uncertainty
+33,st_limbdark2,,Second quadratic limb darkening parameter (modeled)
+34,st_limbdark2err1,,Second quadratic limb darkening parameter upper uncertainty
+35,st_limbdark2err2,,Second quadratic limb darkening parameter lower uncertainty
+36,pl_orbsmax,au,Orbit semi-major axis (derived)
+37,pl_orbsmaxerr1,au,Orbit semi-major axis upper uncertainty
+38,pl_orbsmaxerr2,au,Orbit semi-major axis lower uncertainty
+39,pl_trandurcirc,hours,Transit duration for a centrally transiting orbit (1st-to-4th contact; derived)
+40,pl_trandurcircerr1,hours,Transit duration for a centrally transiting orbit upper uncertainty
+41,pl_trandurcircerr2,hours,Transit duration for a centrally transiting orbit lower uncertainty
+42,pl_insol,F_Earth,Insolation flux (derived)
+43,pl_insolerr1,F_Earth,Insolation flux upper uncertainty
+44,pl_insolerr2,F_Earth,Insolation flux lower uncertainty
+45,pl_eqt,K,Equilibrium temperature (derived)
+46,pl_eqterr1,K,Equilibrium temperature upper uncertainty
+47,pl_eqterr2,K,Equilibrium temperature lower uncertainty
+48,ttv_flag,,Flag indicating if TTV signal is significant (1) or insignificant (0)
+49,notes-1may2023,,"Notes from M. MacDougall (as of May 1, 2023)"
