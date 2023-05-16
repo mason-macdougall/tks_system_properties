@@ -34,8 +34,10 @@
 - [SYSTEM_ID]-DATA.csv: input lightcurve photometry data
 - [SYSTEM_ID]-FINAL_LC.png: full detrended lightcurve photometry with all transits marked
 
-If TTVs are significant, the following files are also available:
+If TTVs were considered, then the following files are also available:
 - [SYSTEM_ID]-[PLANET_ID]-TTVS_FINAL.csv: final transit times (both observed and calculated)
 - [SYSTEM_ID]-[PLANET_ID]-TTVS_FINAL.png: plot of final TTVs
+
+If TTVs were deemed significant, then the following files are also available:
 - [SYSTEM_ID]-[PLANET_ID]-TTVS_SIGNAL_LS.png: plot of final TTVs with a sinusoidal curve fit to the data via a Lomb-Scargle periodogram
 - [SYSTEM_ID]-[PLANET_ID]-TTVS_SIGNAL_L1.png: plot of final TTVs with a sinusoidal curve fit to the data via an l1 periodogram (see Hara et al. 2017)
