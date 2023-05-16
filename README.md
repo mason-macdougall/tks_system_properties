@@ -22,8 +22,8 @@
   * All sub-folder names are labeled with "[TOI]_[TIC]"
     * Notation:
       * [SYSTEM_ID] = [TOI]_[TIC] (i.e. "T001272_TIC0417948359")
-      * [PLANET_ID_NUMBER] (i.e. .01 or .02; like in T001255.01)
-      * [PLANET_ID] = [TOI] + [PLANET_ID_NUMBER] (i.e. T001255.01)
+      * [PLANET_ID_NUMBER] (i.e. ".01" or ".02"; like in TOI-1255.01)
+      * [PLANET_ID] = [TOI] + [PLANET_ID_NUMBER] (i.e. "1255.01")
 
 ## TOI-specific Data Files:
 - [SYSTEM_ID]-[PLANET ID]-CORNER.png: corner plot of posteriors of period, t0, Rp/Rs, b, T14, ecc, omega, and {u1, u2}
