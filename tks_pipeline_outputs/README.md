@@ -20,8 +20,8 @@ If TTVs were deemed significant, then the following files are also available:
 
 
 Notation:
-- [SYSTEM_ID] = [TOI]_[TIC] (i.e. "T001272_TIC0417948359")
-- [PLANET_ID_NUMBER] (i.e. ".01" or ".02"; like in TOI-1255.01)
-- [PLANET_ID] = [TOI] + [PLANET_ID_NUMBER] (i.e. "1255.01")
+- `[SYSTEM_ID]` = `[TOI]_[TIC]` (i.e. "T001272_TIC0417948359")
+- `[PLANET_ID_NUMBER]` (i.e. ".01" or ".02"; like in TOI-1255.01)
+- `[PLANET_ID]` = `[TOI]` + `[PLANET_ID_NUMBER]` (i.e. "1255.01")
 
 
