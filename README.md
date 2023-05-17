@@ -25,7 +25,7 @@
       * [PLANET_ID_NUMBER] (i.e. ".01" or ".02"; like in TOI-1255.01)
       * [PLANET_ID] = [TOI] + [PLANET_ID_NUMBER] (i.e. "1255.01")
 
-## TKS Pipeline Output Data Files:
+## TKS Pipeline Output Data Files (TOI-specific):
 General TOI system outputs:
 - `[SYSTEM_ID]-DATA.csv` --> input lightcurve photometry data ("X" = time, "Y" = flux, "YERR" = flux error, "TREND" = Gaussian Process variability trend, "OUTLIERS" = mask to exclude significant outliers, "MASK" = mask to only include transits)
 - `[SYSTEM_ID]-FINAL_LC.png` --> full detrended lightcurve photometry with all transits marked
