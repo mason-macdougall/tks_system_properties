@@ -1,11 +1,4 @@
 ## TKS Pipeline Output Data Files (TOI-specific):
-Notation:
-- [SYSTEM_ID] = [TOI]_[TIC] (i.e. "T001272_TIC0417948359")
-- [PLANET_ID_NUMBER] (i.e. ".01" or ".02"; like in TOI-1255.01)
-- [PLANET_ID] = [TOI] + [PLANET_ID_NUMBER] (i.e. "1255.01")
-
-
-
 General TOI system outputs:
 - `[SYSTEM_ID]-DATA.csv.zip` --> compressed input lightcurve photometry data ("X" = time, "Y" = flux, "YERR" = flux error, "TREND" = Gaussian Process variability trend, "OUTLIERS" = mask to exclude significant outliers, "MASK" = mask to only include transits)
 - `[SYSTEM_ID]-FINAL_LC.png` --> full detrended lightcurve photometry with all transits marked
@@ -22,3 +15,11 @@ If TTVs were considered, then the following files are also available:
 If TTVs were deemed significant, then the following files are also available:
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_SIGNAL_LS.png` --> plot of final TTVs with a sinusoidal curve fit to the data via a Lomb-Scargle periodogram
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_SIGNAL_L1.png` --> plot of final TTVs with a sinusoidal curve fit to the data via an l1 periodogram (see Hara et al. 2017)
+
+
+Notation:
+- [SYSTEM_ID] = [TOI]_[TIC] (i.e. "T001272_TIC0417948359")
+- [PLANET_ID_NUMBER] (i.e. ".01" or ".02"; like in TOI-1255.01)
+- [PLANET_ID] = [TOI] + [PLANET_ID_NUMBER] (i.e. "1255.01")
+
+
