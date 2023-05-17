@@ -19,7 +19,7 @@
 * File `tks_stellar_properties-reference.csv`
   * Includes descriptions and units for all columns of TKS stellar properties data
 
-* Folder `tks_pipeline_outputs.zip`
+* Folder `tks_pipeline_outputs/`
   * Includes all pipeline outputs for each planet
   * All sub-folder names are labeled with "[TOI]_[TIC]"
     * Notation:
