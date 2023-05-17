@@ -22,3 +22,4 @@
 * Folder `tks_pipeline_outputs/`
   * Includes all pipeline outputs for each planet
   * All sub-folder names are labeled with "[TOI]_[TIC]" (i.e. "T001272_TIC0417948359")
+    * See `README.md` within `tks_pipeline_outputs/` folder for more details on TOI-specific files
