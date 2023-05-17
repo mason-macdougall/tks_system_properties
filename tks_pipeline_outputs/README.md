@@ -4,11 +4,11 @@ General TOI system outputs:
 - `[SYSTEM_ID]-FINAL_LC.png` --> full detrended lightcurve photometry with all transits marked
 
 Planet-specific outputs:
-- `[SYSTEM_ID]-[PLANET ID]-CORNER.png` --> corner plot of posteriors of period, t0, Rp/Rs, b, T14, ecc, omega, and {u1, u2}
-- `[SYSTEM_ID]-[PLANET ID]-FOLDED_FINAL.png` --> phase-folded lightcurve with final model fit and binned points
-- `[SYSTEM_ID]-[PLANET ID]-SUMMARY.csv` --> summary of 15th, 50th, and 85th percentiles of all modeled final transit parameters
-- `[SYSTEM_ID]-[PLANET ID_NUMBER]-TRACE.csv` --> samples of transit model fit (using *exoplanet*)
-- `[SYSTEM_ID]-[PLANET ID_NUMBER]-TRACE_FINAL.csv` --> final importance-sampled transit model posterior distribution data
+- `[SYSTEM_ID]-[PLANET_ID]-CORNER.png` --> corner plot of posteriors of period, t0, Rp/Rs, b, T14, ecc, omega, and {u1, u2}
+- `[SYSTEM_ID]-[PLANET_ID]-FOLDED_FINAL.png` --> phase-folded lightcurve with final model fit and binned points
+- `[SYSTEM_ID]-[PLANET_ID]-SUMMARY.csv` --> summary of 15th, 50th, and 85th percentiles of all modeled final transit parameters
+- `[SYSTEM_ID]-[PLANET_ID_NUMBER]-TRACE.csv` --> samples of transit model fit (using *exoplanet*)
+- `[SYSTEM_ID]-[PLANET_ID_NUMBER]-TRACE_FINAL.csv` --> final importance-sampled transit model posterior distribution data
 
 If TTVs were considered, then the following files are also available:
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_FINAL.csv` --> final transit times (both observed and calculated)
