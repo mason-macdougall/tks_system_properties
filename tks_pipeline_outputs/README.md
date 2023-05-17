@@ -9,9 +9,11 @@ Planet-specific outputs:
 - `[SYSTEM_ID]-[PLANET ID]-SUMMARY.csv` --> summary of 15th, 50th, and 85th percentiles of all modeled final transit parameters
 - `[SYSTEM_ID]-[PLANET ID_NUMBER]-TRACE.csv` --> samples of transit model fit (using *exoplanet*)
 - `[SYSTEM_ID]-[PLANET ID_NUMBER]-TRACE_FINAL.csv` --> final importance-sampled transit model posterior distribution data
+
 If TTVs were considered, then the following files are also available:
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_FINAL.csv` --> final transit times (both observed and calculated)
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_FINAL.png` --> plot of final TTVs
+
 If TTVs were deemed significant, then the following files are also available:
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_SIGNAL_LS.png` --> plot of final TTVs with a sinusoidal curve fit to the data via a Lomb-Scargle periodogram
 - `[SYSTEM_ID]-[PLANET_ID]-TTVS_SIGNAL_L1.png` --> plot of final TTVs with a sinusoidal curve fit to the data via an l1 periodogram (see Hara et al. 2017)
