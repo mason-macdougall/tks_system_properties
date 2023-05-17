@@ -23,3 +23,6 @@
   * Includes all pipeline outputs for each planet
   * All sub-folder names are labeled with "[TOI]_[TIC]" (i.e. "T001272_TIC0417948359")
     * See `README.md` within `tks_pipeline_outputs/` folder for more details on TOI-specific files
+
+* Compressed file `tks_system_properties_paper.zip`
+  * Contains all files for the manuscript "The TESS-Keck Survey. XV. Precise Properties of 108 TESS Planets and Their Host Stars" which was accepted for publication in the *Astronomical Journal* on May 9th, 2023
