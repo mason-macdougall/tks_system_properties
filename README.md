@@ -4,7 +4,7 @@
   * Includes all final planet properties from TKS sample
     * Directly modeled transit parameters (w/ upper and lower uncertainties)
     * Derived planet properties
-  * Includes notes from M. MacDougall (i.e. comments on TTVs, variability, or other possible transit signals)
+  * Includes notes from Mason MacDougall (i.e. comments on TTVs, variability, or other possible transit signals)
   * Includes a flag indicating if measured TTVs are significant or not
   * Final update as of May 1st, 2023
 * File `tks_planet_properties-reference.csv`
