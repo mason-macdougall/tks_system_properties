@@ -5,7 +5,7 @@
   * Includes notes from M. MacDougall (i.e. comments on TTVs, variability, or other possible transit signals)
   * Includes a flag indicating if measured TTVs are significant or not
   * Final update as of May 1st, 2023
-* File "tks_planet_properties-reference.csv
+* File `tks_planet_properties-reference.csv`
   * Includes descriptions and units for all columns of TKS planet properties data
 
 * File `tks_stellar_properties-final.csv`
