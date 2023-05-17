@@ -1,6 +1,6 @@
 ## TKS Pipeline Output Data Files (TOI-specific):
 General TOI system outputs:
-- `[SYSTEM_ID]-DATA.csv.zip` --> compressed input lightcurve photometry data ("X" = time, "Y" = flux, "YERR" = flux error, "TREND" = Gaussian Process variability trend, "OUTLIERS" = mask to exclude significant outliers, "MASK" = mask to only include transits)
+- `[SYSTEM_ID]-LC_DATA.csv.zip` --> compressed input lightcurve photometry data ("X" = time, "Y" = flux, "YERR" = flux error, "TREND" = Gaussian Process variability trend, "OUTLIERS" = mask to exclude significant outliers, "MASK" = mask to only include transits)
 - `[SYSTEM_ID]-FINAL_LC.png` --> full detrended lightcurve photometry with all transits marked
 
 Planet-specific outputs:
