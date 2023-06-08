@@ -1,4 +1,4 @@
-Data associated with "The TESS-Keck Survey. XV. Precise Properties of 108 TESS Planets and Their Host Stars" (MacDougall et al. 2023a)
+Data associated with "The TESS-Keck Survey. XV. Precise Properties of 108 TESS Planets and Their Host Stars" (MacDougall et al. 2023a: https://arxiv.org/abs/2306.00251)
 
 # TKS System Properties
 ## General Data Files:
